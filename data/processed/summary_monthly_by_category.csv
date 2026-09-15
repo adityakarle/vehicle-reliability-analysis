@@ -1,0 +1,85 @@
+service_month,failure_category,failure_count
+2025-01,Brakes,9
+2025-01,Cooling System,5
+2025-01,Electrical,15
+2025-01,Engine,8
+2025-01,HVAC,10
+2025-01,Suspension,10
+2025-01,Transmission,7
+2025-02,Brakes,13
+2025-02,Cooling System,16
+2025-02,Electrical,8
+2025-02,Engine,18
+2025-02,HVAC,7
+2025-02,Suspension,7
+2025-02,Transmission,7
+2025-03,Brakes,16
+2025-03,Cooling System,8
+2025-03,Electrical,17
+2025-03,Engine,23
+2025-03,HVAC,12
+2025-03,Suspension,23
+2025-03,Transmission,15
+2025-04,Brakes,18
+2025-04,Cooling System,5
+2025-04,Electrical,9
+2025-04,Engine,20
+2025-04,HVAC,4
+2025-04,Suspension,20
+2025-04,Transmission,9
+2025-05,Brakes,18
+2025-05,Cooling System,6
+2025-05,Electrical,14
+2025-05,Engine,15
+2025-05,HVAC,17
+2025-05,Suspension,18
+2025-05,Transmission,11
+2025-06,Brakes,20
+2025-06,Cooling System,8
+2025-06,Electrical,8
+2025-06,Engine,17
+2025-06,HVAC,11
+2025-06,Suspension,17
+2025-06,Transmission,11
+2025-07,Brakes,13
+2025-07,Cooling System,9
+2025-07,Electrical,15
+2025-07,Engine,15
+2025-07,HVAC,6
+2025-07,Suspension,14
+2025-07,Transmission,8
+2025-08,Brakes,13
+2025-08,Cooling System,9
+2025-08,Electrical,17
+2025-08,Engine,17
+2025-08,HVAC,9
+2025-08,Suspension,20
+2025-08,Transmission,10
+2025-09,Brakes,13
+2025-09,Cooling System,8
+2025-09,Electrical,13
+2025-09,Engine,16
+2025-09,HVAC,12
+2025-09,Suspension,19
+2025-09,Transmission,6
+2025-10,Brakes,18
+2025-10,Cooling System,17
+2025-10,Electrical,13
+2025-10,Engine,23
+2025-10,HVAC,8
+2025-10,Suspension,19
+2025-10,Transmission,15
+2025-11,Brakes,11
+2025-11,Cooling System,6
+2025-11,Electrical,5
+2025-11,Engine,13
+2025-11,HVAC,8
+2025-11,Suspension,20
+2025-11,Transmission,15
+2025-12,Brakes,16
+2025-12,Cooling System,9
+2025-12,Electrical,16
+2025-12,Engine,23
+2025-12,HVAC,7
+2025-12,Suspension,18
+2025-12,Transmission,13

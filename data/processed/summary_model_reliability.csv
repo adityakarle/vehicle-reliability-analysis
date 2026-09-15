@@ -1,0 +1,16 @@
+make,model,n_failures,n_vehicles,failures_per_vehicle
+Chevrolet,Malibu,87,20,4.35
+Ford,F-150,73,18,4.06
+Ford,Escape,85,21,4.05
+Nissan,Altima,78,20,3.9
+Honda,CR-V,61,16,3.81
+Chevrolet,Equinox,93,25,3.72
+Nissan,Rogue,115,31,3.71
+Toyota,RAV4,65,18,3.61
+Toyota,Camry,99,28,3.54
+Toyota,Corolla,57,18,3.17
+Nissan,Sentra,59,19,3.11
+Chevrolet,Silverado,50,17,2.94
+Honda,Accord,43,15,2.87
+Ford,Explorer,74,26,2.85
+Honda,Civic,46,17,2.71

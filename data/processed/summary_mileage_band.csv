@@ -1,0 +1,42 @@
+mileage_band,failure_category,failure_count
+0-25k,Brakes,13
+0-25k,Engine,9
+0-25k,Electrical,8
+0-25k,Transmission,7
+0-25k,Suspension,6
+0-25k,HVAC,5
+0-25k,Cooling System,2
+25k-50k,Brakes,59
+25k-50k,Electrical,57
+25k-50k,Suspension,55
+25k-50k,Engine,44
+25k-50k,Transmission,33
+25k-50k,HVAC,28
+25k-50k,Cooling System,20
+50k-75k,Engine,60
+50k-75k,Suspension,43
+50k-75k,Brakes,38
+50k-75k,HVAC,36
+50k-75k,Electrical,33
+50k-75k,Cooling System,28
+50k-75k,Transmission,26
+75k-100k,Suspension,51
+75k-100k,Engine,43
+75k-100k,Cooling System,32
+75k-100k,Brakes,30
+75k-100k,Transmission,27
+75k-100k,HVAC,24
+75k-100k,Electrical,21
+100k-150k,Engine,45
+100k-150k,Suspension,45
+100k-150k,Transmission,34
+100k-150k,Brakes,32
+100k-150k,Electrical,30
+100k-150k,Cooling System,23
+100k-150k,HVAC,16
+150k+,Engine,7
+150k+,Brakes,6
+150k+,Suspension,5
+150k+,HVAC,2
+150k+,Cooling System,1
+150k+,Electrical,1

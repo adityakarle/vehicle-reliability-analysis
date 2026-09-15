@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI temp files
+*.pbix.bak
+~$*.pbix
+
+# Keep data + db + charts tracked (this is a portfolio project, not prod)
+# If your dataset gets large, uncomment the lines below:
+# data/processed/*.db
