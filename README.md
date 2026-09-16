@@ -27,35 +27,37 @@ trends — built with **Python (pandas)**, **SQL**, and **Power BI**.
 
 ## Repo structure
 
-```
 vehicle-reliability-analysis/
 ├── data/
-│   ├── raw/
-│   │   └── vehicle_service_data.csv       <- generated dataset (1,000+ rows)
-│   └── processed/
-│       ├── vehicle_reliability.db         <- SQLite DB
-│       ├── fact_table_enriched.csv        <- + is_repeat_repair flag
-│       ├── summary_category.csv
-│       ├── summary_monthly_trend.csv
-│       ├── summary_monthly_by_category.csv
-│       ├── summary_mileage_band.csv
-│       └── summary_model_reliability.csv
+│ ├── raw/
+│ │ └── vehicle_service_data.csv <- generated dataset (1,000+ rows)
+│ └── processed/
+│ ├── vehicle_reliability.db <- SQLite DB
+│ ├── fact_table_enriched.csv <- + is_repeat_repair flag
+│ ├── summary_category.csv
+│ ├── summary_monthly_trend.csv
+│ ├── summary_monthly_by_category.csv
+│ ├── summary_mileage_band.csv
+│ └── summary_model_reliability.csv
 ├── sql/
-│   ├── schema.sql
-│   └── analysis_queries.sql               <- CTEs, window functions
+│ ├── schema.sql
+│ └── analysis_queries.sql <- CTEs, window functions
 ├── scripts/
-│   ├── generate_data.py
-│   ├── load_to_sql.py
-│   └── analysis.py
+│ ├── generate_data.py
+│ ├── load_to_sql.py
+│ └── analysis.py
 ├── outputs/
-│   └── charts/                            <- PNG charts from pandas/matplotlib
+│ └── charts/ <- PNG charts from pandas/matplotlib
 ├── powerbi/
-│   ├── POWER_BI_GUIDE.md                  <- exact dashboard build steps
-│   ├── vehicle_reliability_dashboard.pbix <- (add after building in Power BI)
-│   └── screenshots/                       <- (add dashboard screenshots here)
+│ ├── POWER_BI_GUIDE.md <- exact dashboard build steps
+│ ├── vehicle_reliability_dashboard.pbix
+│ └── screenshots/
+│ ├── overview.png
+│ ├── deep_dive.png
+│ └── cost_warranty.png
 ├── requirements.txt
 └── README.md
-```
+
 
 ## How to run it
 
@@ -83,6 +85,26 @@ python scripts/analysis.py
 Then follow `powerbi/POWER_BI_GUIDE.md` to build the dashboard from the
 CSVs in `data/processed/`.
 
+## Dashboard & Visuals
+
+**Failure counts by category**
+![Failure count by category](outputs/charts/failure_count_by_category.png)
+
+**Monthly service volume trend**
+![Monthly trend](outputs/charts/monthly_trend.png)
+
+**Failure category by mileage band**
+![Mileage band by category](outputs/charts/mileage_band_by_category.png)
+
+**Power BI Dashboard — Overview**
+![Overview](powerbi/screenshots/overview.png)
+
+**Power BI Dashboard — Deep Dive**
+![Deep Dive](powerbi/screenshots/deep_dive.png)
+
+**Power BI Dashboard — Cost & Warranty**
+![Cost & Warranty](powerbi/screenshots/cost_warranty.png)
+
 ## Key findings (from the generated dataset)
 
 - **1,085** service records across **309** unique vehicles.
@@ -108,7 +130,7 @@ different random seed — see `SEED` in `generate_data.py`.)*
 - **Python**: pandas, numpy, matplotlib
 - **SQL**: SQLite (CTEs, window functions, views)
 - **Power BI**: Power Query, DAX measures, time-intelligence, matrix/line/
-  bar visuals, slicers
+  bar visuals
 
 ## Methodology notes / limitations
 
